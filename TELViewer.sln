@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{551846EF-80A4-452A-A6A9-672336460148}"
+	ProjectSection(SolutionItems) = preProject
+		database\createtable.sql = database\createtable.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TELViewer", "TELViewer\TELViewer.csproj", "{ED0F5242-F765-4014-8D87-BEBC0D87E069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TELViewer.Core", "TELViewer.Core\TELViewer.Core.csproj", "{FAC5558B-8B9F-4B1A-A5BE-E9B0BA84CE92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B3BAB2A9-0987-432E-9F98-102F84517DE8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED0F5242-F765-4014-8D87-BEBC0D87E069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0F5242-F765-4014-8D87-BEBC0D87E069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0F5242-F765-4014-8D87-BEBC0D87E069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0F5242-F765-4014-8D87-BEBC0D87E069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC5558B-8B9F-4B1A-A5BE-E9B0BA84CE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC5558B-8B9F-4B1A-A5BE-E9B0BA84CE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC5558B-8B9F-4B1A-A5BE-E9B0BA84CE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC5558B-8B9F-4B1A-A5BE-E9B0BA84CE92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

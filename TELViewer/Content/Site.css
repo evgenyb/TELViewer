@@ -1,0 +1,14 @@
+body, table, select, input, textarea, check, radio { 
+	font-family: Trebuchet MS, Arial, Helvetica, Sans-Serif; 
+	font-size: 8pt; 
+}
+body { background-color: #FFF6E4; }                 
+.grid        { font-size:8pt; width:100%; border-collapse:collapse;}
+.grid TD, TH { text-align:left; padding:1px 5px; }
+.gridResultHeader { background-color: #F2C260; font-weight: bold; } 
+
+.gridResultRow_hover { background: #DDD; }
+.gridResultCol_clickable { cursor:pointer; }
+.gridRow_DEBUG { background: #C3D7CD; }
+.gridRow_ERROR { background: #E5A1A1; }
+.showMessage{ cursor:pointer; }
